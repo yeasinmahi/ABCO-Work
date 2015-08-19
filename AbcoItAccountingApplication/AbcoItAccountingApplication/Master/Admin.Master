@@ -19,9 +19,12 @@
          folder instead of downloading all of them to reduce the load. -->
     <link href="../dist/css/skins/skin-blue.min.css" rel="stylesheet" />
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 131cb518afd74a28be10aa5e1d58ae54abf462c6
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -102,7 +105,7 @@
                                                 <!-- start notification -->
                                                 <a href="#">
                                                     <i class="fa fa-users text-aqua"></i>5 new members joined today
-                        </a>
+                                                </a>
                                             </li>
                                             <!-- end notification -->
                                         </ul>
@@ -216,12 +219,21 @@
                     </div>
 
                     <!-- search form (Optional) -->
+<<<<<<< HEAD
                     <div class="input-group">
                         <input type="text" name="q" class="form-control" placeholder="Search...">
                         <span class="input-group-btn">
                             <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
                         </span>
                     </div>
+=======
+                        <div class="input-group">
+                            <input type="text" name="q" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+>>>>>>> 131cb518afd74a28be10aa5e1d58ae54abf462c6
                     <!-- /.search form -->
 
                     <!-- Sidebar Menu -->
@@ -331,19 +343,31 @@
                     <!-- /.tab-pane -->
                     <!-- Settings tab content -->
                     <div class="tab-pane" id="control-sidebar-settings-tab">
+<<<<<<< HEAD
                         <h3 class="control-sidebar-heading">General Settings</h3>
                         <div class="form-group">
                             <label class="control-sidebar-subheading">
                                 Report panel usage
+=======
+                            <h3 class="control-sidebar-heading">General Settings</h3>
+                            <div class="form-group">
+                                <label class="control-sidebar-subheading">
+                                    Report panel usage
+>>>>>>> 131cb518afd74a28be10aa5e1d58ae54abf462c6
                  
                                     <input type="checkbox" class="pull-right" checked>
                             </label>
                             <p>
                                 Some information about this general settings option
                
+<<<<<<< HEAD
                             </p>
                         </div>
                         <!-- /.form-group -->
+=======
+                                </p>
+                            </div>
+>>>>>>> 131cb518afd74a28be10aa5e1d58ae54abf462c6
                     </div>
                     <!-- /.tab-pane -->
                 </div>
@@ -354,12 +378,17 @@
             <div class="control-sidebar-bg"></div>
         </div>
         <!-- ./wrapper -->
+
     </form>
     <!-- Bootstrap 3.3.5 -->
     <script src="../Scripts/bootstrap.min.js"></script>
     <!-- jQuery 2.1.4 -->
     <script src="../Scripts/jquery-2.1.4.min.js"></script>
+<<<<<<< HEAD
     <!-- AdminLTE App -->
     <script src="../dist/js/app.min.js"></script>
+=======
+
+>>>>>>> 131cb518afd74a28be10aa5e1d58ae54abf462c6
 </body>
 </html>
