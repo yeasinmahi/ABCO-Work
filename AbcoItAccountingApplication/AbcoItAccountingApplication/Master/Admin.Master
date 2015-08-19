@@ -19,7 +19,6 @@
          folder instead of downloading all of them to reduce the load. -->
     <link href="../dist/css/skins/skin-blue.min.css" rel="stylesheet" />
 
-
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -100,7 +99,7 @@
                                                 <!-- start notification -->
                                                 <a href="#">
                                                     <i class="fa fa-users text-aqua"></i>5 new members joined today
-                        </a>
+                                                </a>
                                             </li>
                                             <!-- end notification -->
                                         </ul>
@@ -214,14 +213,12 @@
                     </div>
 
                     <!-- search form (Optional) -->
-                    <form action="#" method="get" class="sidebar-form">
                         <div class="input-group">
                             <input type="text" name="q" class="form-control" placeholder="Search...">
                             <span class="input-group-btn">
                                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
                             </span>
                         </div>
-                    </form>
                     <!-- /.search form -->
 
                     <!-- Sidebar Menu -->
@@ -331,7 +328,6 @@
                     <!-- /.tab-pane -->
                     <!-- Settings tab content -->
                     <div class="tab-pane" id="control-sidebar-settings-tab">
-                        <form method="post">
                             <h3 class="control-sidebar-heading">General Settings</h3>
                             <div class="form-group">
                                 <label class="control-sidebar-subheading">
@@ -344,8 +340,6 @@
                
                                 </p>
                             </div>
-                            <!-- /.form-group -->
-                        </form>
                     </div>
                     <!-- /.tab-pane -->
                 </div>
@@ -356,19 +350,14 @@
             <div class="control-sidebar-bg"></div>
         </div>
         <!-- ./wrapper -->
+
     </form>
-    <script src="../plugins/jQuery/jQuery-2.1.4.min.js"></script>
-    <!-- jQuery UI 1.11.4 -->
-    <script src="../Scripts/jquery-ui-1.11.4.min.js"></script>
-    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-    <script>
-        $.widget.bridge('uibutton', $.ui.button);
-    </script>
     <!-- Bootstrap 3.3.5 -->
     <script src="../Scripts/bootstrap.min.js"></script>
     <!-- AdminLTE App -->
     <script src="../dist/js/app.min.js"></script>
     <!-- jQuery 2.1.4 -->
     <script src="../Scripts/jquery-2.1.4.min.js"></script>
+
 </body>
 </html>
