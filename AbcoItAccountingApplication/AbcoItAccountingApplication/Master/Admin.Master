@@ -20,6 +20,8 @@
     <link href="../dist/css/skins/skin-blue.min.css" rel="stylesheet" />
 
 
+
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -214,14 +216,12 @@
                     </div>
 
                     <!-- search form (Optional) -->
-                    <form action="#" method="get" class="sidebar-form">
-                        <div class="input-group">
-                            <input type="text" name="q" class="form-control" placeholder="Search...">
-                            <span class="input-group-btn">
-                                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
-                            </span>
-                        </div>
-                    </form>
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Search...">
+                        <span class="input-group-btn">
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
                     <!-- /.search form -->
 
                     <!-- Sidebar Menu -->
@@ -268,9 +268,9 @@
             <!-- /.content-wrapper -->
 
 
+
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-
             <!-- Main Footer -->
             <footer class="main-footer">
                 <!-- To the right -->
@@ -331,21 +331,19 @@
                     <!-- /.tab-pane -->
                     <!-- Settings tab content -->
                     <div class="tab-pane" id="control-sidebar-settings-tab">
-                        <form method="post">
-                            <h3 class="control-sidebar-heading">General Settings</h3>
-                            <div class="form-group">
-                                <label class="control-sidebar-subheading">
-                                    Report panel usage
+                        <h3 class="control-sidebar-heading">General Settings</h3>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Report panel usage
                  
                                     <input type="checkbox" class="pull-right" checked>
-                                </label>
-                                <p>
-                                    Some information about this general settings option
+                            </label>
+                            <p>
+                                Some information about this general settings option
                
-                                </p>
-                            </div>
-                            <!-- /.form-group -->
-                        </form>
+                            </p>
+                        </div>
+                        <!-- /.form-group -->
                     </div>
                     <!-- /.tab-pane -->
                 </div>
@@ -357,18 +355,11 @@
         </div>
         <!-- ./wrapper -->
     </form>
-    <script src="../plugins/jQuery/jQuery-2.1.4.min.js"></script>
-    <!-- jQuery UI 1.11.4 -->
-    <script src="../Scripts/jquery-ui-1.11.4.min.js"></script>
-    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-    <script>
-        $.widget.bridge('uibutton', $.ui.button);
-    </script>
     <!-- Bootstrap 3.3.5 -->
     <script src="../Scripts/bootstrap.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="../dist/js/app.min.js"></script>
     <!-- jQuery 2.1.4 -->
     <script src="../Scripts/jquery-2.1.4.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../dist/js/app.min.js"></script>
 </body>
 </html>

@@ -15,6 +15,6 @@ D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\bin\AbcoItA
 D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\bin\AbcoItAccountingApplication.pdb
 D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\obj\Debug\AbcoItAccountingApplication.csprojResolveAssemblyReference.cache
 D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\obj\Debug\AbcoItAccountingApplication.dll
 D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\obj\Debug\AbcoItAccountingApplication.pdb
+D:\ABCO Work\AbcoItAccountingApplication\AbcoItAccountingApplication\obj\Debug\AbcoItAccountingApplication.csprojResolveAssemblyReference.cache
